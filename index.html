@@ -7,90 +7,65 @@
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
         .container { width: 80%; margin: auto; overflow: hidden; }
-        header { background: #333; color: white; padding-top: 30px; min-height: 70px; border-bottom: #088da5 3px solid; }
-        header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
-        header ul { padding: 0; margin: 0; list-style: none; overflow: hidden; }
-        header li { float: left; display: inline; padding: 0 20px 0 20px; }
-        header #branding { float: left; }
-        header #branding h1 { margin: 0; }
-        header nav { float: right; margin-top: 10px; }
-        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
-        header a:hover { color: #ffffff; font-weight: bold; }
-        .banner { padding: 40px 0 30px 0; color: #088da5; text-align: center; }
-        .banner h1 { font-size: 2em; }
-        .banner p { font-size: 1.2em; }
-        .main-col { float: left; width: 70%; }
-        .sidebar { float: right; width: 30%; padding: 30px 0; }
-        footer { padding: 20px; margin-top: 20px; color: #ffffff; background-color: #333; text-align: center; }
+        header, footer { background: #333; color: white; padding: 20px; text-align: center; }
+        h2 { color: #088da5; }
+        section { margin-bottom: 20px; }
+        .email-link, .linkedin-link { color: #333; text-decoration: none; }
+        .email-link:hover, .linkedin-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Zuhair Abduljabbar Ahmed</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Zuhair Abduljabbar Ahmed</h1>
+        <p>📍 Mosul, Iraq | 🎂 22nd Jul 1995 | 🚻 Single</p>
+        <p>
+            <a href="mailto:cse.20.27@grad.uotechnology.edu.iq" class="email-link">cse.20.27@grad.uotechnology.edu.iq</a> | 
+            <a href="https://www.linkedin.com/in/zuhair95/" target="_blank" class="linkedin-link">LinkedIn</a>
+        </p>
     </header>
 
-    <section class="banner">
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Dedicated and passionate researcher in the field of Mechatronics and Robotics</p>
-        </div>
-    </section>
-
     <div class="container">
-        <section id="about">
-            <div class="main-col">
-                <h2>About Me</h2>
-                <p>Aspiring Ph.D. candidate in Mechatronics and Robotics...</p>
-            </div>
-            <aside class="sidebar">
-                <h3>Contact Details</h3>
-                <p>Email: cse.20.27@grad.uotechnology.edu.iq</p>
-                <p>Mobile: (+964) 75123 85673</p>
-            </aside>
+        <section>
+            <h2>Objective Statement</h2>
+            <p>Seeking a Ph.D. program in Mechatronics and Robotics, I am eager to deepen my understanding and contribute to the field, drawing from my background in mobile robotics, autonomous systems, and embedded programming. With foundational skills in C++, Python, MATLAB, and experience in collaborative research projects, I am keen to explore new challenges and learn from advanced research opportunities in robotics.</p>
         </section>
 
-        <section id="education">
+        <section>
             <h2>Education</h2>
-            <p>M.Sc. in Control and System Engineering / Mechatronics and Robotics Engineering...</p>
+            <p>M.Sc. in Control and Systems Engineering / Mechatronics and Robotics Engineering, University of Technology - Iraq, Baghdad (11.2020 – 11.2023)</p>
+            <p>B.Sc. in Mechatronics Engineering, University of Mosul - Iraq, Mosul (10.2013 - 07.2019)</p>
         </section>
 
-        <section id="experience">
-            <h2>Experience</h2>
-            <p>Field Assistant at Mercy Corps...</p>
+        <section>
+            <h2>Research & Projects</h2>
+            <p><strong>M.Sc. Research:</strong> Developing Indoor navigation UV-C sterilizer mobile robot, improving 2D LiDAR-based Grid SLAM, and proposing enhanced Global Path Planner at University of Technology - Automation and Robotics Research Unit - Iraq, Baghdad (11.2021 - 10.2023).</p>
+            <p><strong>Mobile Robotics Research Team | Online Collaboration:</strong> Developing open-source tools for SLAM and autonomous navigation with members from Germany, France, Tunisia, and Iraq (06.2022 - Present).</p>
+            <p><strong>B.Sc. Graduation project:</strong> Developed an open-source, 3D-printed prosthetic arm controlled by Arduino at University of Mosul - Iraq, Mosul (01.2019 – 05.2019).</p>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Details about your projects like the autonomous UV-C sterilizer mobile robot...</p>
+        <section>
+            <h2>Technical Skills</h2>
+            <p>Linux-embedded systems development, hardware and software development of Arduino, ESPressif, OpernCR, and Raspberry Pi boards. Proficient in C++, Python, MATLAB, Robot Operating System (ROS), and various software including ArcGIS, AutoCAD, Inventor, SolidWorks, and Adobe Illustrator.</p>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>Linux-embedded systems development, Arduino, Python...</p>
+        <section>
+            <h2>Languages</h2>
+            <p>English (Fluent), Arabic (Native)</p>
         </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out for any inquiries or collaborations...</p>
+        <section>
+            <h2>Work Experience</h2>
+            <p>Field Assistant at Mercy Corps - Iraq, Mosul (07.2020 - 09.2020). Field Monitoring Officer at REACH - Iraq, Mosul (11.2019 - 07.2020). Public Relations Coordinator at NYN - Iraq, Erbil/Mosul (09.2019 - 11.2019).</p>
+        </section>
+
+        <section>
+            <h2>Volunteering Activities</h2>
+            <p>Senior Program Officer at Living Light International (NGO) - Iraq (12.2021 - Present). IT Officer at Ibdaa for Sustainable Development (NGO) - Iraq, Mosul (01.2021 – 04.2022).</p>
         </section>
     </div>
 
     <footer>
-        <p>Zuhair Abduljabbar Ahmed's Portfolio © 2023</p>
+        <p>© 2023 Zuhair Abduljabbar Ahmed. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
