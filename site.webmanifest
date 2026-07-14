@@ -1,0 +1,9 @@
+{
+  "name": "Zuhair A. Ahmed Portfolio",
+  "short_name": "ZAA Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "SCADA and industrial automation engineering portfolio."
+}
